@@ -26,6 +26,7 @@ GLuint CreateShader(GLenum a_eShaderType, const char *a_strShaderFile)
 		shaderStream.close();
 	}
 
+
 	//convert to cstring
 	char const *szShaderSourcePointer = strShaderCode.c_str();
 
